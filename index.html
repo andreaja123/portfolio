@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Profesional</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome untuk icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">Andre Tri Anggoro</a>
+
+          <!-- Mobile menu button -->
+          <button class="mobile-menu-button" id="mobile-menu-button">
+            <i class="fas fa-bars" id="menu-icon"></i>
+          </button>
+
+          <!-- Desktop navigation -->
+          <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-nav" id="mobile-nav">
+          <a href="#home" class="mobile-nav-link">Home</a>
+          <a href="#about" class="mobile-nav-link">About</a>
+          <a href="#skills" class="mobile-nav-link">Skills</a>
+          <a href="#projects" class="mobile-nav-link">Projects</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Andre Tri Anggoro</h1>
+              <h2>Web Developer</h2>
+              <p>
+                Saya adalah seorang web developer yang berpengalaman dalam
+                pengembangan aplikasi berbasis web. Saya memiliki keahlian dalam
+                HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, serta framework
+                backend seperti Laravel dan CodeIgniter. Selain itu, saya juga
+                berpengalaman dalam mengembangkan RESTful API dan mengelola
+                basis data menggunakan MySQL.
+              </p>
+              <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+                <a href="#projects" class="btn btn-outline">Lihat Proyek</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="profile-image">
+                <img src="profil1.JPG" alt="Profile Photo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img
+                src="profil1.JPG"
+                alt="Andre Tri Anggoro"
+                class="rounded-image"
+              />
+            </div>
+            <div class="about-text">
+              <p>
+                Saya adalah seorang fresh graduate dari D3 Teknik Informatika di
+                Politeknik Negeri Cilacap dengan IPK 3,48. Memiliki pengalaman
+                dalam pengembangan lebih dari 5 website menggunakan Laravel,
+                baik secara freelance, magang, maupun di perusahaan.
+              </p>
+              <p>
+                Saya terbiasa bekerja secara mandiri maupun dalam tim, pekerja
+                keras, dan mampu bekerja di bawah tekanan. Saya memiliki
+                ketertarikan besar pada pengembangan web dengan pendekatan yang
+                efisien dan user-friendly, serta terus berusaha mengembangkan
+                kemampuan teknis dan soft skill saya.
+              </p>
+              <div class="stats-container">
+                <div class="stat-item">
+                  <div class="stat-circle">
+                    <span>5+</span>
+                  </div>
+                  <div class="stat-text">
+                    <h3>Website Laravel</h3>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-circle">
+                    <span>3</span>
+                  </div>
+                  <div class="stat-text">
+                    <h3>Pengalaman Kerja</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title">Keahlian</h2>
+          <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-card">
+              <h3>Frontend Development</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>HTML & CSS</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>JavaScript</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Bootstrap</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Tailwind CSS</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-card">
+              <h3>Backend Development</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>PHP</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Laravel</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>CodeIgniter</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>MySQL</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Other Skills -->
+            <div class="skill-card">
+              <h3>Other Skills</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Git & GitHub</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Postman (API Testing)</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>cPanel (Dasar)</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Figma (Dasar)</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">Proyek Terbaru</h2>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="projek1.png" alt="Project 1" />
+              </div>
+              <div class="project-content">
+                <h3>Spartav</h3>
+                <p>
+                  Platform yang memungkinkan pengguna memperoleh poin dengan
+                  mengerjakan misi. Poin ini bisa ditukarkan dengan uang atau
+                  digunakan untuk bermain game gacha yang menawarkan hadiah
+                  menarik.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Laravel</span>
+                  <span class="tag">Filament</span>
+                  <span class="tag">Livewire</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="projek2.png" alt="Project 2" />
+              </div>
+              <div class="project-content">
+                <h3>PlockDest</h3>
+                <p>
+                  Aplikasi untuk reservasi alat musik, ruang bermain, dan jasa
+                  rekaman. Pengguna dapat melihat ketersediaan jadwal, melakukan
+                  pemesanan, serta melihat riwayat reservasi mereka.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Laravel</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="projek3.png" alt="Project 3" />
+              </div>
+              <div class="project-content">
+                <h3>Sistem Konseling</h3>
+                <p>
+                  Sistem untuk memudahkan mahasiswa membuat janji temu dengan
+                  dosen wali, pencatatan konseling, serta menyimpan data
+                  akademik. Sistem juga mendukung sesi konseling online.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Laravel</span>
+                  <span class="tag">Tailwind CSS</span>
+                  <span class="tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="projects-button">
+            <a href="#" class="btn btn-primary">
+              Lihat Semua Proyek
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Hubungi Saya</h2>
+          <div class="contact-content">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Nama</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Nama Anda"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="email@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan</label>
+                  <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Tulis pesan Anda di sini..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                  Kirim Pesan
+                </button>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-card">
+                <h3>Informasi Kontak</h3>
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                      <h4>Email</h4>
+                      <p>andretri376@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-text">
+                      <h4>WhatsApp</h4>
+                      <p>+62895377082457</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="location">
+                  <h3>Lokasi</h3>
+                  <div
+                    class="map-placeholder"
+                    style="width: 100%; height: 300px"
+                  >
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15876.255017271505!2d109.005771!3d-7.694563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1717920000000"
+                      width="100%"
+                      height="100%"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#" class="logo">Andre Tri Anggoro</a>
+            <p>
+              &copy; <span id="current-year"></span> Andre Tri Anggoro. All
+              rights reserved.
+            </p>
+          </div>
+          <div class="footer-social">
+            <a href="mailto:andretri376@gmail.com" class="social-icon"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a href="https://wa.me/62895377082457" class="social-icon"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
